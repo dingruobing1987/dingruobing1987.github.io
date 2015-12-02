@@ -889,6 +889,7 @@ li.listing-seperator:before {
   border-bottom: 0;
   padding: 40px 40px 40px 40px;
   margin-bottom: 20px;
+  border-radius:20px;
   -moz-border-radius:20px;
   -webkit-border-radius:20px;
 }
