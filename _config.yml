@@ -1,0 +1,32 @@
+# Site settings
+title: Robin's Blog
+email: 158070976@qq.com
+description: ""
+permalink: /:year/:month/:day/:title.html
+baseurl: ""
+url: "http://dingruobing1987.github.io"
+author: "Robin"
+
+# Build settings
+# permalink: date
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks,no_intra_emphasis,strikethrough,no_intra_emphasis,autolink,tables]
+
+
+#Navigation 
+navigations:
+  - title: Home
+    class: fa fa-home
+    href: "/"
+  - title: Tags
+    class: fa fa-film
+    href: /tags/
+  - title: Archive
+    class: fa fa-tags
+    href: /archive/
+  - title: About
+    class: fa fa-list-ul
+    href: /about/
+
